@@ -33,6 +33,16 @@ BiocManager::install("ppclust")
 BiocManager::install("pcaMethods")
 devtools::install_github("justinhuang533/pcaReduce")
 
+## 📥 Download
+
+🔗 [**Download this repository as ZIP**](https://github.com/vikkyak/PCAwFCM/archive/refs/heads/main.zip)
+
+Or clone via Git:
+
+```bash
+git clone https://github.com/vikkyak/PCAwFCM.git
+
+
 ▶️ Running the Code
 1. Load data and libraries
 r
