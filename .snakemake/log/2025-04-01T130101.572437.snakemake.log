@@ -1,0 +1,28 @@
+Assuming unrestricted shared filesystem usage.
+None
+host: life5
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count
+--------------  -------
+run_clustering        1
+total                 1
+
+Select jobs to execute...
+Execute 1 jobs...
+[Tue Apr  1 13:01:01 2025]
+localrule run_clustering:
+    input: data/Pollen2014.txt, data/SupplementaryLabels.txt
+    output: results/arandi_plot.png, results/arandi_output.rds
+    jobid: 0
+    reason: Missing output files: results/arandi_output.rds, results/arandi_plot.png
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Tue Apr  1 13:04:11 2025]
+Finished jobid: 0 (Rule: run_clustering)
+1 of 1 steps (100%) done
+Complete log(s): /home/vikkyak/PCAwFCM/.snakemake/log/2025-04-01T130101.572437.snakemake.log
